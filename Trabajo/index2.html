@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <input type="number" id="n" onkeyup="validar()">
+
+    <div id="d1">correcto</div><br>
+    <div id="d2">error</div>
+
+    
+
+
+    <script>
+    function validar(){
+
+
+        var n = document.getElementById("n").value;
+        if(n>0 && n<20){
+            document.querySelector("#d1").style.display="block";
+        }else{
+            document.querySelector("#d2").style.display="block";
+        }
+        
+    }    
+        
+    </script>
+    
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: white;
+
+}
+
+#d1{
+    display: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 20px;
+}
+
+#d2{
+    display: none;
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 20px;
+
+
+}
+
